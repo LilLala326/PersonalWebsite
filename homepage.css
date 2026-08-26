@@ -1,0 +1,139 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --availability-bg: #EFF6FF;
+    --availability-text: #2563EB;
+    --button-bg: #ffffff;
+    --button-text: #000000;
+    --buttonHover-bg: #000000;
+    --buttonHover-text: #ffffff;
+}
+
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --availability-bg: #1e3a5f;
+    --availability-text: #93c5fd;
+    --button-bg: #121212;
+    --button-text: #ffffff;
+    --buttonHover-bg: #ffffff;
+    --buttonHover-text: #000000;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: auto;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+
+main {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#extras {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#availability {
+    background-color: var(--availability-bg);
+    padding: .75rem;
+    border-radius: .5rem;
+    color: var(--availability-text);
+    margin: 0;
+}
+
+
+#info-container h1 {
+    font-size: clamp(1.5rem, 10vw, 9rem);
+    font-family: "Stack Sans Notch", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+
+}
+
+#dotDev {
+    font-size: clamp(.5rem, 2.75vw, 1.5rem);
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+}
+
+#info-container p {
+    font-size: clamp(1.25rem, 1.75vw, 1.5rem);
+    font-family: "Stack Sans Text", sans-serif;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+#about {
+    max-width: 45vw;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #80808040;
+    width: 95%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+header,
+footer {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(.75rem, 1vw, 1.5rem);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+footer p {
+    margin: 0;
+    color: var(--text-color);
+}
+
+.bold {
+    font-weight: 700;
+}
+
+button {
+    font-family: "Stack Sans Text", sans-serif;
+    font-size: clamp(1rem, 1.25vw, 1.5rem);
+    padding: 1.25rem;
+    border-radius: 10px;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    transition-duration: .25s;
+}
+
+
+button:hover {
+    background-color: var(--buttonHover-bg);
+    color: var(--buttonHover-text);
+    cursor: pointer;
+}
+
+#buttons {
+    display: flex;
+    gap: 1.25rem;
+}
