@@ -110,12 +110,18 @@ button {
     background-color: var(--button-bg);
     color: var(--button-text);
     transition-duration: .25s;
+    
 }
 
 button:hover {
     background-color: var(--buttonHover-bg);
     color: var(--buttonHover-text);
     cursor: pointer;
+}
+
+button a {
+    color: inherit;
+    text-decoration: none;
 }
 
 #about {
