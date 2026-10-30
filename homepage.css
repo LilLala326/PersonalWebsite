@@ -164,6 +164,11 @@ hr {
     padding: 1vw 5vw;
 }
 
+body.dark-mode .github-icon {
+    filter: invert(100%);
+    
+}
+
 header,
 footer {
     font-family: "Play", sans-serif;
