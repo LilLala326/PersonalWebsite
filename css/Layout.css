@@ -1,0 +1,66 @@
+main {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-inline: clamp(1rem, calc(0.5rem + 2vw), 4rem);
+}
+
+#navbar-container {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: var(--navbar-bg);
+    margin: 0;
+    padding: 1rem;
+    z-index: 1;
+}
+
+header,
+footer {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+footer p {
+    margin: 0;
+    color: var(--text-color);
+    text-align: center;
+}
+
+#extras {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#info-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+#info-container h1 {
+    font-size: clamp(1.5rem, 10vw, 9rem);
+    font-optical-sizing: auto;
+    font-weight: 700;
+    border: dashed 6px var(--hrDash-color);
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+#about {
+    max-width: 45vw;
+}
+
+#aboutButtons {
+    display: flex;
+    gap: 1.25rem;
+}

@@ -1,0 +1,33 @@
+:root {
+    --bg-color: #ffffff;
+    --navbar-bg:#eeeeee;
+
+    --text-color: #000000;
+    --card-bg: #f8f7f7;
+    --card-border: #000000;
+    --card-text: #000000;
+    --availability-bg: #b8d7ff;
+    --skills-bg: #80808040;
+    --availability-text: #1f479c;
+    --button-bg: #ffffff;
+    --button-text: #000000;
+    --buttonHover-bg: #000000;
+    --buttonHover-text: #ffffff;
+    --hrDash-color: #80808040;
+}
+ 
+body.dark-mode {
+    --bg-color: #121212;
+    --navbar-bg:#2e2e2e;
+    --text-color: #dadada;
+    --card-bg: #1d1d1d;
+    --card-border: #0c0c0c;
+    --skills-bg: #313131;
+    --availability-bg: #1e3a5f;
+    --availability-text: #93c5fd;
+    --button-bg: #121212;
+    --button-text: #dadada;
+    --buttonHover-bg: #dadada;
+    --buttonHover-text: #000000;
+    --hrDash-color: #ffffff77;
+}

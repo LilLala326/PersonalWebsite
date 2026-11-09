@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me | Skyla Jeanmary</title>
-    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,80 +25,192 @@
     <header id="navbar-container">
         <a href="index.html"><img src="assets/SJ-Icon-Light.png" alt="SJ Icon" id="SJIcon"></a>
         <div id="extras">
-            <img src="assets/RIT_hor_k.png" alt="RIT Logo" id="RITLogo" height="30px">
+            <a class="nav-button" href=#tech-skills-container>Languages & Tools</a>
+            <a class="nav-button" href="#projects">Projects</a>
+            <p id="availability">• Available for Internships/Co-ops</p>
             <img src="assets/theme-toggle-Dark.png" alt="Icon to toggle dark mode" id="modeBttn">
-            <p id="availability">• Available for Roles</p>
         </div>
-
     </header>
-    <hr id="navHr">
 
     <main>
         <section id="info-container">
-            <h1>Skyla<br>Jeanmary<span id="dotDev">.dev</span></h1>
+            <h1>Skyla<br>Jeanmary</h1>
             <div id="about">
                 <p>I'm a <b class="bold">Web and Mobile Computing</b> major at <b class="bold">Rochester Institute of
                         Technology</b>. I love working across the stack — diving into backend logic to understand what's
                     happening behind the scenes, while caring just as much about UI/UX to shape what the user actually
                     sees and feels. </p>
-                <div id="aboutButtons">
+                <!-- <div id="aboutButtons">
                     <a href="myWorks.html"><button>My Works</button></a>
                     <a href="mailto:skylajeanmary@gmail.com"><button>Email Me</button></a>
-                </div>
+                </div> -->
             </div>
         </section>
 
+        <hr class="hr-main">
+
         <section id="tech-skills-container">
 
-            <h2>What I Work With</h2>
+            <h2>Frameworks & Tools</h2>
+            <div id="icons">
 
-            <div class="icons">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VsCode Icon"/>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="Html5 Icon" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Css3 Icon" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
+                    alt="VsCode Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                    alt="Html5 Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                    alt="Css3 Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+                    alt="Python Icon" />
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                    alt="JavaScript Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                    alt="TypeScript Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                    alt="Java Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+                    alt="PHP Icon" />
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                    alt="React Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+                    alt="Node.js Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+                    alt="Figma Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg"
+                    alt="React Icon" />
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xcode/xcode-original.svg"
+                    alt="Xcode Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg"
+                    alt="Swift Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg"
+                    alt="Android Studio Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg"
+                    alt="Kotlin Icon" />
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+                    alt="MySQL Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
+                    alt="SQL Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+                    alt="Docker Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                    alt="Github Icon" class="github-icon" />
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg"
+                    alt="Adobe Photoshop Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-original.svg"
+                    alt="Adobe Illustrator Icon" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/claude/claude-original.svg"
+                    alt="Claude Icon" />
+
             </div>
 
-            <div class="icons">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript Icon" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript Icon" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java Icon" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP Icon" />
-            </div>
+        </section>
 
-            <div class="icons">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React Icon" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js Icon" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="Figma Icon" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg" alt="React Icon" />
-            </div>
+        <hr class="hr-main">
 
-            <div class="icons">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xcode/xcode-original.svg" alt="Xcode Icon" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" alt="Swift Icon" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg" alt="Android Studio Icon"/>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" alt="Kotlin Icon"/>
-            </div>
 
-            <div class="icons">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL Icon" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="SQL Icon" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker Icon" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Github Icon" class="github-icon"/>
-            </div>
+        <section id="projects" aria-label="Projects">
+            <h2>Projects</h2>
+            <article class="project-card">
+                <header class="project-header">
+                    <h3 class="project-title">Responsive Website</h3>
+                    <p class="project-date">August 2025 – December 2025</p>
+                </header>
+                <ul class="project-skills">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Flexbox</li>
+                    <li>JavaScript</li>
+                    <li>DHTML</li>
+                    <li>PHP</li>
+                    <li>Responsive Design</li>
+                </ul>
+                <p class="project-description">
+                    I developed a 12-page responsive website, organized with a hierarchical architecture and semantic
+                    HTML5 to make navigation clearer and shorten the path users take to reach any page. I built a
+                    JavaScript-driven "hamburger" menu with DHTML transitions and Flexbox so the layout looks and
+                    behaves consistently across browsers. I also used PHP includes to reuse components across pages,
+                    which cut down on repeated code and made the site easier to maintain.
+                </p>
+            </article>
 
-            <div class="icons">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" alt="Adobe Photoshop Icon" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-original.svg" alt="Adobe Illustrator Icon" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/claude/claude-original.svg" alt = "Claude Icon" />
-          
-            </div>
+            <article class="project-card">
+                <header class="project-header">
+                    <h3 class="project-title">Group Website</h3>
+                    <p class="project-date">August 2025 – December 2025</p>
+                </header>
+                <ul class="project-skills">
+                    <li>PHP</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>WCAG 2.1 AA</li>
+                    <li>C.R.A.P. Design Principles</li>
+                    <li>SDLC</li>
+                    <li>Team Leadership</li>
+                </ul>
+                <p class="project-description">
+                    As team lead, I guided a 5-person team through the full software development lifecycle, managing
+                    design documents and weekly progress reports to deliver the project on time across every milestone.
+                    I built a modular site structure with PHP global variables so the finished pages matched the
+                    wireframes exactly, and applied C.R.A.P. design principles and WCAG-compliant color contrast to meet
+                    WCAG 2.1 AA accessibility standards throughout.
+                </p>
+            </article>
+
+            <article class="project-card">
+                <header class="project-header">
+                    <h3 class="project-title">TigerSpace</h3>
+                    <p class="project-date">August 2026 – Present</p>
+                </header>
+                <ul class="project-skills">
+                    <li>SwiftUI</li>
+                    <li>Kotlin</li>
+                    <li>iOS</li>
+                    <li>Android</li>
+                    <li>Figma</li>
+                    <li>UX Design</li>
+                    <li>Market Research</li>
+                </ul>
+                <p class="project-description">
+                    I'm designing and developing TigerSpace, a cross-platform iOS/Android app built with SwiftUI and
+                    Kotlin that brings room and computer lab availability for the RIT community into a single mobile
+                    experience. I'm conducting competitive market research and UX design in Figma to set it apart from
+                    existing university tools by combining room reservations with lab OS and capacity data. I'm also
+                    architecting the core MVP features, including room search and filtering, schedule viewing, and
+                    reservation management, scoped through an iterative feature-prioritization process.
+                </p>
+            </article>
+
+            <article class="project-card">
+                <header class="project-header">
+                    <h3 class="project-title">SkyCast</h3>
+                    <p class="project-date">February 2026 – May 2026</p>
+                </header>
+                <ul class="project-skills">
+                    <li>FlutterFlow</li>
+                    <li>OpenWeather API</li>
+                    <li>GPS Location</li>
+                    <li>Responsive Layout</li>
+                    <li>Visual Design</li>
+                </ul>
+                <p class="project-description">
+                    I designed and developed a cross-platform mobile weather app in FlutterFlow, applying responsive
+                    layout and visual design techniques. I integrated the OpenWeather API to display real-time
+                    temperature, hourly forecasts, humidity, UV index, and air quality data, and added GPS-based
+                    location detection as the app's native device feature so weather loads automatically for the user's
+                    current location.
+                </p>
+            </article>
 
         </section>
 
     </main>
 
-    <hr id="headHr">
+    <hr id="footer-hr">
 
     <footer>
         <p>&copy; 2026 Skyla Jeanmary</p>
